@@ -29,18 +29,31 @@
 
     <ImageView
         android:id="@+id/ivPostImage"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_below="@+id/btnCaptureImage"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
         tools:srcCompat="@tools:sample/avatars[0]" />
 
     <Button
         android:id="@+id/btnSubmit"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ivPostImage"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="181dp"
+        android:layout_marginTop="25dp"
         android:text="submit" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSubmit"
+
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginBottom="-102dp"
+        android:text="Logout"
+        android:textColor="#E91E63" />
 </RelativeLayout>
