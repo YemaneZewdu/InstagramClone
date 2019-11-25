@@ -8,6 +8,11 @@ Time spent: **4** hours spent in total
 
 The following **required** functionality is completed:
 
+- [x] User can view the last 20 posts submitted to "Instagram".
+- [x] The user should switch between different tabs - viewing all posts (feed view), capture (camera and photo gallery view) and profile tabs (posts made) using fragments and a Bottom Navigation View. (2 points)
+
+The following **required** functionality is completed:
+
 - [X] User can sign up to create a new account using Parse authentication.
 - [X] User can log in and log out of his or her account.
 - [X] The current signed in user is persisted across app restarts.
@@ -26,6 +31,9 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
+<img src='https://github.com/YemaneZewdu/InstagramClone/blob/master/walkthrough3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 <img src='https://github.com/YemaneZewdu/InstagramClone/blob/master/walkthrough2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
